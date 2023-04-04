@@ -63,11 +63,11 @@
       }
       
       .boton1 {
-        background-color: #7fc6a45d;
+        background-color: #F16B48 ;
       }
       
       .boton2 {
-        background-color: #a2ffd2;
+        background-color: #48F1B5;
         color: rgb(47, 47, 47);
       }
       
@@ -79,7 +79,7 @@
         margin-bottom: 20px;
         text-align: center;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-        background-color: #F16B79;
+        background-color: #F16B79 ;
       }
       .resultado {
         display: flex;
@@ -140,6 +140,13 @@
   margin-left: 0.5rem;
 }
 
+ 
+footer{
+  padding-top: 80vh;
+  padding-left: 5%;
+  font-size: 0.5rem;
+}
+
 @media (max-width:768px){
   .resultado{
     width: 95%;
@@ -164,6 +171,11 @@
   }
   .inputotexto{
     margin-left: 5vh;
+  }
+  footer{
+    padding-top: 88vh;
+    padding-left: 5%;
+    font-size: 0.5rem;
   }
 }
 
@@ -196,4 +208,10 @@
   .inputotexto{
     margin-left: 5vh;
   }
+  footer{
+    padding-top: 88vh;
+    padding-left: 5%;
+    font-size: 0.5rem;
+  }
 }
+
